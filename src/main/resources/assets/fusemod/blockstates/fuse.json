@@ -1,0 +1,128 @@
+{
+    "multipart": [
+        {
+            "when": {
+                "ignited": "false"
+            },
+            "apply": {
+                "model": "fusemod:fuses/normal/center"
+            }
+        },
+        {
+            "when": {
+                "north": "true",
+                "ignited": "false"
+            },
+            "apply": {
+                "model": "fusemod:fuses/normal/north"
+            }
+        },
+        {
+            "when": {
+                "south": "true",
+                "ignited": "false"
+            },
+            "apply": {
+                "model": "fusemod:fuses/normal/south"
+            }
+        },
+        {
+            "when": {
+                "east": "true",
+                "ignited": "false"
+            },
+            "apply": {
+                "model": "fusemod:fuses/normal/east"
+            }
+        },
+        {
+            "when": {
+                "west": "true",
+                "ignited": "false"
+            },
+            "apply": {
+                "model": "fusemod:fuses/normal/west"
+            }
+        },
+        {
+            "when": {
+                "top": "true",
+                "ignited": "false"
+            },
+            "apply": {
+                "model": "fusemod:fuses/normal/top"
+            }
+        },
+        {
+            "when": {
+                "bottom": "true",
+                "ignited": "false"
+            },
+            "apply": {
+                "model": "fusemod:fuses/normal/bottom"
+            }
+        },
+        {
+            "when": {
+                "ignited": "true"
+            },
+            "apply": {
+                "model": "fusemod:fuses/ignited/center"
+            }
+        },
+        {
+            "when": {
+                "north": "true",
+                "ignited": "true"
+            },
+            "apply": {
+                "model": "fusemod:fuses/ignited/north"
+            }
+        },
+        {
+            "when": {
+                "south": "true",
+                "ignited": "true"
+            },
+            "apply": {
+                "model": "fusemod:fuses/ignited/south"
+            }
+        },
+        {
+            "when": {
+                "east": "true",
+                "ignited": "true"
+            },
+            "apply": {
+                "model": "fusemod:fuses/ignited/east"
+            }
+        },
+        {
+            "when": {
+                "west": "true",
+                "ignited": "true"
+            },
+            "apply": {
+                "model": "fusemod:fuses/ignited/west"
+            }
+        },
+        {
+            "when": {
+                "top": "true",
+                "ignited": "true"
+            },
+            "apply": {
+                "model": "fusemod:fuses/ignited/top"
+            }
+        },
+        {
+            "when": {
+                "bottom": "true",
+                "ignited": "true"
+            },
+            "apply": {
+                "model": "fusemod:fuses/ignited/bottom"
+            }
+        }
+    ]
+}

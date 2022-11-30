@@ -1,0 +1,19 @@
+{
+    "group": "fusemod:gunpowder_block",
+    "type":"forge:ore_shaped",
+    "pattern": [
+        "GGG",
+        "GGG",
+        "GGG"
+    ],
+    "key": {
+        "G": {
+            "type": "forge:ore_dict",
+            "ore": "gunpowder"
+        }
+    },
+    "result": {
+        "item": "fusemod:gunpowder_block",
+        "count": 1
+    }
+}

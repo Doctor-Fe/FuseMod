@@ -1,0 +1,22 @@
+{
+    "group": "fusemod:fuse",
+    "type":"forge:ore_shaped",
+    "pattern": [
+        "PPP",
+        "GGG",
+        "PPP"
+    ],
+    "key": {
+        "P": {
+            "item": "minecraft:paper"
+        },
+        "G": {
+            "type": "forge:ore_dict",
+            "ore": "gunpowder"
+        }
+    },
+    "result": {
+        "item": "fusemod:fuse",
+        "count": 8
+    }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "fusemod",
+    "name": "Fuse Mod",
+    "description": "This Mod adds some items and blocks about explosion.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["Fe-K Alloy"],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
