@@ -1,3 +1,4 @@
 
-tile.gunpowder_block.name=火薬ブロック
 tile.fuse.name=導火線
+tile.gunpowder_block.name=火薬ブロック
+tile.simple_detonator.name=起爆装置 (手動)

@@ -8,6 +8,7 @@ import net.minecraftforge.fml.common.registry.ForgeRegistries;
 public class Items {
 	public static final Item FUSE = getItemFromBlock(Blocks.FUSE);
 	public static final Item GUNPOWDER = getItemFromBlock(Blocks.GUNPOWDER);
+	public static final Item SIMPLE_DETONATOR = getItemFromBlock(Blocks.SIMPLE_DETONATOR);
 
 	private static Item getItemFromBlock(Block block)
 	{
@@ -21,6 +22,6 @@ public class Items {
 
 	public static void register()
 	{
-		ForgeRegistries.ITEMS.registerAll(FUSE, GUNPOWDER);
+		ForgeRegistries.ITEMS.registerAll(FUSE, GUNPOWDER, SIMPLE_DETONATOR);
 	}
 }

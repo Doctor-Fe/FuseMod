@@ -1,0 +1,25 @@
+{
+    "group": "fusemod:gunpowder",
+    "type":"forge:ore_shaped",
+    "pattern": [
+        "I I",
+        "FIS",
+        "III"
+    ],
+    "key": {
+        "I": {
+            "type": "forge:ore_dict",
+            "ore": "ingotIron"
+        },
+        "F": {
+            "item": "minecraft:flint_and_steel"
+        },
+        "S": {
+            "item": "minecraft:stone_button"
+        }
+    },
+    "result": {
+        "item": "fusemod:simple_detonator",
+        "count": 1
+    }
+}

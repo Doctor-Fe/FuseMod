@@ -1,4 +1,4 @@
 
-tile.gunpowder_block.name=Gunpowder block
 tile.fuse.name=Fuse
-tile.detonator.name=Detonator
+tile.gunpowder_block.name=Gunpowder block
+tile.simple_detonator.name=Detonator (Manual)

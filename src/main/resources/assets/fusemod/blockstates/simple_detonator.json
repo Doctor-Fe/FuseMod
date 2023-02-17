@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=south": { "model": "fusemod:detonators/simple_detonator" },
+        "facing=west":  { "model": "fusemod:detonators/simple_detonator", "y": 90 },
+        "facing=north": { "model": "fusemod:detonators/simple_detonator", "y": 180 },
+        "facing=east":  { "model": "fusemod:detonators/simple_detonator", "y": 270 }
+    }
+}

@@ -9,6 +9,7 @@ public class ModelRegister {
     public static void register() {
         register(Items.FUSE);
         register(Items.GUNPOWDER);
+        register(Items.SIMPLE_DETONATOR);
     }
 
     protected static void register(Item item) {

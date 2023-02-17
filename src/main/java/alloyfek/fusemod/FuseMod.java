@@ -14,7 +14,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 public class FuseMod {
     public static final String MODID = "fusemod";
     public static final String NAME = "Modding Test";
-    public static final String VERSION = "0.1.0";
+    public static final String VERSION = "0.2.0";
 
     public static Logger logger;
 

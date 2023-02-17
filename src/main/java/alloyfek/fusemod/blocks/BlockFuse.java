@@ -22,7 +22,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
-public class BlockFuse extends Block implements IIgnitable {
+public class BlockFuse extends BlockBase implements IIgnitable {
 
     public static final PropertyBool BOTTOM = PropertyBool.create("bottom");
     public static final PropertyBool TOP = PropertyBool.create("top");
@@ -45,8 +45,7 @@ public class BlockFuse extends Block implements IIgnitable {
     private static final AxisAlignedBB CENTER = new AxisAlignedBB(0.375, 0.375, 0.375, 0.625, 0.625, 0.625);
 
     public BlockFuse() {
-        super(Material.CIRCUITS);
-        setRegistryName(FuseMod.MODID, "fuse");
+        super(FuseMod.MODID, "fuse", Material.CIRCUITS);
         setUnlocalizedName("fuse");
         setDefaultState(blockState.getBaseState()
             .withProperty(NORTH, false)
