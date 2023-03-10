@@ -6,6 +6,7 @@ import java.util.Random;
 import javax.annotation.Nullable;
 
 import alloyfek.fusemod.FuseMod;
+import alloyfek.fusemod.lists.Items;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockTNT;
 import net.minecraft.block.material.Material;
@@ -15,6 +16,7 @@ import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.Entity;
 import net.minecraft.init.SoundEvents;
+import net.minecraft.item.Item;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.math.AxisAlignedBB;
@@ -187,6 +189,11 @@ public class BlockFuse extends BlockBase implements IIgnitable {
     public void beginPropagation(World worldIn, BlockPos pos) {
         worldIn.setBlockState(pos, worldIn.getBlockState(pos).withProperty(IGNITED, true));
         worldIn.scheduleUpdate(pos, this, 2);
+    }
+
+    @Override
+    public Item getItemDropped(IBlockState state, Random rand, int fortune) {
+        return Items.FUSE;
     }
 
     // ---- BlockStateの管理に関する処理 ----

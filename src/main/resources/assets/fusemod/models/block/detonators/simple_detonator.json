@@ -1,10 +1,10 @@
 {
 	"parent": "minecraft:block/block",
 	"textures": {
-		"0": "fusemod:blocks/detonators/simple_detonator/base",
-		"1": "fusemod:blocks/detonators/simple_detonator/plug",
+		"0": "fusemod:blocks/detonators/common/base",
+		"1": "fusemod:blocks/detonators/common/plug",
 		"2": "fusemod:blocks/detonators/simple_detonator/switch",
-		"particle": "fusemod:blocks/detonators/simple_detonator/base"
+		"particle": "fusemod:blocks/detonators/common/base"
 	},
 	"elements": [
 		{

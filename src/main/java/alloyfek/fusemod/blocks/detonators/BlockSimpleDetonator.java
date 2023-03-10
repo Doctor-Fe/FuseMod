@@ -1,9 +1,12 @@
 package alloyfek.fusemod.blocks.detonators;
 
+import java.util.Random;
+
 import javax.annotation.Nullable;
 
 import alloyfek.fusemod.FuseMod;
 import alloyfek.fusemod.blocks.IIgnitable;
+import alloyfek.fusemod.lists.Items;
 import net.minecraft.block.BlockHorizontal;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.IProperty;
@@ -11,6 +14,7 @@ import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.Item;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.Rotation;
@@ -127,5 +131,10 @@ public class BlockSimpleDetonator extends BlockHorizontal implements IIgnitable 
             default:
                 return getDefaultState().withProperty(FACING, EnumFacing.EAST);
         }
+    }
+
+    @Override
+    public Item getItemDropped(IBlockState state, Random rand, int fortune) {
+        return Items.SIMPLE_DETONATOR;
     }
 }
